@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="s-main">
+        <div class="main">
+        <div class="s-main-div"> 
+            <input type="text" readonly placeholder="Calculater" id="number" class="s-inp">
+            <table class="s-tbl"> 
+            <tr>
+                <td id="s-main" onclick="setNumber (7)">7</td>
+                <td id="s-main" onclick="setNumber(8)">8</td>
+                <td id="s-main" onclick="setNumber(9)">9</td>
+                <td id="s-main" onclick="setNumber('/')">/</td>
+            </tr>
+            <tr>
+                <td id="s-main" onclick="setNumber(4)">4</td>
+                <td id="s-main" onclick="setNumber(5)">5</td>
+                <td id="s-main" onclick="setNumber(6)">6</td>
+                <td id="s-main" onclick="setNumber('*')">*</td>
+            </tr>
+            <tr>
+                <td id="s-main" onclick="setNumber(1)">1</td>
+                <td id="s-main" onclick="setNumber(2)">2</td>
+                <td id="s-main" onclick="setNumber(3)">3</td>
+                <td id="s-main" onclick="setNumber('-')">-</td>
+            </tr>
+            <tr>
+                <td id="s-main" onclick="setNumber(0)">0</td>
+                <td id="s-main" onclick="Double(00)">00</td>
+                <td id="s-main" onclick="setNumber('+')">+</td>
+                <td class="s-b1" rowspan="2" onclick="ans()">=</td>
+            </tr>
+            <tr>
+                <td id="s-main" onclick="clr()">C</td>
+                <td id="s-main" onclick="setNumber()">AC</td>
+                <td id="s-main" onclick="setNumber('.')">.</td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
